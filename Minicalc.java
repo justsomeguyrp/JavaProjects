@@ -1,0 +1,3 @@
+class Minicalc extends TrueMiniCalc{
+    
+}

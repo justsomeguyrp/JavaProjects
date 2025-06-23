@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Q
+comment1.params=x
+comment1.target=void\ print(java.lang.String)
+comment2.params=x
+comment2.target=void\ print(int)
+comment3.params=x
+comment3.target=void\ print(double)
+comment4.params=ch
+comment4.target=boolean\ isVowel(char)
+numComments=5

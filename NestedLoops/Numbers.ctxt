@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Numbers
+comment1.params=n
+comment1.target=boolean\ pronic(int)
+comment2.params=d1\ d2
+comment2.target=double\ gcd(int,\ int)
+numComments=3
