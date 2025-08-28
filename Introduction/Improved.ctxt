@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Improved
+comment1.params=Lowest\ Highest
+comment1.target=double\ random(double,\ double)
+comment2.params=lowest\ highest
+comment2.target=int\ randomInt(double,\ double)
+comment3.params=NumberToRound\ RoundToDecimalPlace
+comment3.target=double\ round(double,\ int)
+numComments=4

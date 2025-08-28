@@ -5,10 +5,11 @@ class Laptop
     String name;
     double dis, price, amt;
     
-    Laptop(String name, double price)
+    Laptop(String n, double p)
     {
-        this.name = name;
-        this.price = price;
+        name = n;
+        price = p;
+        dis = 0;
     }
     
     void cal()

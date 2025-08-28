@@ -14,13 +14,16 @@ class HcfLcm
         int r;
         int divd = Math.max(a,b); //dividend
         int div = Math.min(a, b); //divisor
+        
+        
         while(div>0)
         {
             r = divd%div;   
             divd = div;
             div = r;
         }
-        System.out.println(divd);  
+        
+        System.out.println("The GCD is: "+divd);  
         int lcm = a*b/divd;
         System.out.println(lcm);
     }

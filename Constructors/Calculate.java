@@ -7,33 +7,35 @@ class Calculate
     Calculate(int n)
     {
         num = n;
+        f = 0;
+        rev = 0;
     }
-    int prime()
+    void prime()
     {
         for(int i=2; i<=num/2; i++)
         {
             if(num%i==0)
-                return 0;
+            {
+                f = 0;
+                return;
+            }
         }
-        return 1;
+        f = 1;
     }
-    int reverse()
+    void reverse()
     {
         int rev=0, r, p=num;
-        while(num>0)
+        while(p>0)
         {
-            r = num%10;
+            r = p%10;
             rev = rev*10 + r;
-            num /=10;
+            p /=10;
         }
-        if(p==rev)
-            return 0;
-        else
-            return 1;
+        
     }
-    void display(int a, int b)
+    void display()
     {
-        if(a == 0 && b == 0)
+        if(f == 1 && rev == num)
             System.out.println("The number: "+num+" is a prime palindrome");
         else
             System.out.println("The number: "+num+" is not a prime palindrome");

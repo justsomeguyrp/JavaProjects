@@ -14,9 +14,9 @@ class Series
     static double series(double a, double n)
     {
         double sum=0;
-        for(int i=1; i<=n; i++)
+        for(int i=1; i<=n; i+=3)
         {
-            sum += 1/Math.pow(a,i+1); 
+            sum += i/Math.pow(a,i+1); 
         }
         return sum;
     }

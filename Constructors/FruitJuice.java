@@ -7,6 +7,10 @@ class FruitJuice
     
     void input()
     {
-        
+        //input to be taken here
+    }
+    void display()
+    {
+        //text to be displayed here
     }
 }
