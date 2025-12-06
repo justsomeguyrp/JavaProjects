@@ -10,7 +10,7 @@ class Lab_Longest
         str = str.trim();
         str += " ";
         char ch;
-        for(int i=0; i<str.length(); i++)
+        for(int i=0; i<str.length()-1; i++)
         {
             ch = str.charAt(i);
             if(Character.isWhitespace(ch))
@@ -23,6 +23,6 @@ class Lab_Longest
                 word += ch;
             
         }
-        System.out.println("The longest word is "+longest+"\nThe length of longest word is: "+longest.length());
+        System.out.println("The longest word is "+longest+"\n The length of longest word is: "+longest.length());
     }
 }

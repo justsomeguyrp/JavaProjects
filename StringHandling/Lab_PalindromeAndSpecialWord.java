@@ -21,8 +21,6 @@ class Lab_PalindromeAndSpecialWord
             System.out.println(str+ " is both special and palindrome");
         else if(palindrome)
             System.out.println(str+ " is only a palindrome");
-        else if(special)
-            System.out.println(str+ " is only special");
         else
             System.out.println(str+ " is neither palidrome nor special");
     }

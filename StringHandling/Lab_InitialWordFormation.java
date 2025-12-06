@@ -14,7 +14,7 @@ class Lab_InitialWordFormation
             ch = str.charAt(i);
             if(ch == ' ')
             {
-                newStr += word.charAt(i);
+                newStr += word.charAt(0);
                 word = "";
             }
             else
