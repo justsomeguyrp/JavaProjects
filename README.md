@@ -1,222 +1,252 @@
-# _CA THEORY – INTRODUCTION TO OOP_
+<h1><span style="color:#4A90E2;"><b>CA THEORY – INTRODUCTION TO OOP</b></span></h1>
 
-## _GENERATIONS OF COMPUTER LANGUAGES_
-- **FIRST GENERATION** – Uses machine (binary) language; called low level language.  
-- **SECOND GENERATION** – Uses assembly language with mnemonic codes.  
-- **THIRD GENERATION** – Uses words in English language. Eg: Java, C.  
-- **FOURTH GENERATION** – Has less syntax requirements; easy to learn.  
-- **FIFTH GENERATION** – Used for GUI development and AI applications. Eg: Prolog.  
+<hr>
 
-## _LIMITATIONS_
-- **Not suitable for very complex problems.**
+<h2><span style="color:#FF5733;"><b>📘 Table of Contents</b></span></h2>
 
-## _OBJECT ORIENTED PROGRAMMING – FEATURES_
-- **Breaks down** a problem into objects.  
-- **Easy troubleshooting.**  
-- **Emphasizes objects.**  
-- **Secure** due to data hiding.  
-- **Supports INHERITANCE** (extension of classes).  
+1. [Generations of Computer Languages](#generations)  
+2. [Limitations](#limitations)  
+3. [OOP Features](#oopfeatures)  
+4. [Principles of OOP](#principles)  
+5. [Features of Java](#javafeatures)  
+6. [Compilation of Java](#compilation)  
+7. [Class as Object Factory](#objectfactory)  
+8. [ASCII vs Unicode](#asciiunicode)  
+9. [Data Types](#datatypes)  
+10. [Variables](#variables)  
+11. [Type Conversion](#typeconversion)  
+12. [Function Theory](#functiontheory)  
+13. [Scope & Overloading](#scope)  
+14. [Arrays](#arrays)  
+15. [Key Terms](#keyterms)  
+16. [Pattern Logic](#patternlogic)  
+17. [String Pattern Logic](#stringpatternlogic)
 
-## _PRINCIPLES OF OOP_
+---
 
-### _OBJECT_
-- **Basic unit of OOP.**
+<h2 id="generations"><span style="color:#E67E22;"><b>🔷 GENERATIONS OF COMPUTER LANGUAGES</b></span></h2>
 
-### _CLASS_
-- **Group of objects** with same characteristics & behaviour.  
-- **Blueprint** for object creation.  
+- **FIRST GENERATION** – Machine language  
+- **SECOND GENERATION** – Assembly  
+- **THIRD GENERATION** – English-like (Java, C)  
+- **FOURTH GENERATION** – Less syntax  
+- **FIFTH GENERATION** – AI, GUI  
 
-### _ENCAPSULATION_
-- **Wrapping data + functions** into one unit (class).  
-- Improves **maintainability & flexibility**.  
+---
 
-### _ABSTRACTION_
-- Shows **only essential components**.  
-- **Hides unnecessary details.**
+<h2 id="limitations"><span style="color:#C70039;"><b>⚠ LIMITATIONS</b></span></h2>
 
-### _POLYMORPHISM_
-- “Poly” = many, “morph” = form.  
-- **Same function name**, different behaviours.  
+> ❗ Not suitable for highly complex system problems.
 
-### _INHERITANCE_
-- Child class **acquires features** of parent class.  
-- Uses keyword **extends**.
+---
 
-## _FEATURES OF JAVA_
-- **Platform independent**  
-- **Object oriented**  
-- **Simple**  
-- **Robust & reliable**  
-- **Secure**  
-- **Supports multithreading**  
-- **Portable**
+<h2 id="oopfeatures"><span style="color:#1ABC9C;"><b>🟦 OOP FEATURES</b></span></h2>
 
-## _COMPILATION OF JAVA_
+- Problem broken into **objects**  
+- Secure (data hiding)  
+- Troubleshooting is easier  
+- **Class is an object factory**  
+- Supports **inheritance**  
 
-### _COMPILER_
-- Converts HLL → LLL **at once**, fast.
+---
 
-### _INTERPRETER_
-- Converts HLL → LLL **line-by-line**, slower.
+<h2 id="principles"><span style="color:#9B59B6;"><b>🧩 PRINCIPLES OF OOP</b></span></h2>
 
-### _COMPILATION STAGES_
-- Source code → **Compiler** → Bytecode → **Interpreter** → Executable code.
+<h3><b>🔹 OBJECT</b></h3>
+- Basic unit  
+- **Object is an instance of a class**  
 
-## _CLASS AS OBJECT FACTORY_
-- CLASS acts as **factory producing objects**.
+<h3><b>🔹 CLASS</b></h3>
+- Blueprint for objects  
+- Groups properties + methods  
+- **Class is an object factory**  
 
-## _ASCII VS UNICODE_
-### ASCII
-- **1 byte**, supports 256 characters.  
-### UNICODE
-- **2 bytes**, supports 65,534 characters.
+<h3><b>🔹 ENCAPSULATION</b></h3>
+- Data + methods wrapped together  
 
-## _DATA TYPES – PRIMITIVE_
+<h3><b>🔹 ABSTRACTION</b></h3>
+- Shows essential details only  
 
-### INTEGER TYPES
-- **byte** – 1 byte  
-- **short** – 2 bytes  
-- **int** – 4 bytes  
-- **long** – 8 bytes  
+<h3><b>🔹 POLYMORPHISM</b></h3>
+- Same name, different forms  
 
-### FLOATING TYPES
-- **float** – 4 bytes  
-- **double** – 8 bytes  
+<h3><b>🔹 INHERITANCE</b></h3>
+- Acquire parent features  
 
-### CHARACTER
-- **char** – 2 bytes  
+---
 
-### BOOLEAN
-- **true / false**
+<h2 id="javafeatures"><span style="color:#2471A3;"><b>☕ FEATURES OF JAVA</b></span></h2>
 
-## _NON–PRIMITIVE DATA TYPES_
-- Formed using **primitive** types  
-- Eg: **Class, Array, Interface**
+- Platform independent  
+- Object oriented  
+- Simple  
+- Robust & reliable  
+- Secure  
+- Multithreaded  
+- Portable  
 
-## _TYPES OF VARIABLES_
+---
 
-### _LOCAL_
-- Accessible **only** inside its method.
+<h2 id="compilation"><span style="color:#CB4335;"><b>⚙ COMPILATION OF JAVA</b></span></h2>
 
-### _INSTANCE_
-- Declared **inside class**, outside methods.
+```
+Source → Compiler → Bytecode → JVM → Output
+```
 
-### _STATIC_
-- **Shared** among all objects.
+### Compiler  
+Fast, converts full program at once.
 
-## _TYPE CONVERSION_
+### Interpreter  
+Slow, converts line-by-line.
 
-### _IMPLICIT (COERCION)_
-- Lower → higher data type.
+---
 
-### _EXPLICIT (TYPECASTING)_
-- Manual conversion using `(type)`.
+<h2 id="objectfactory"><span style="color:#6C3483;"><b>🏭 CLASS AS OBJECT FACTORY</b></span></h2>
 
-## _FUNCTION THEORIES_
+A class produces objects just like a factory creates products.
 
-### _FUNCTION HEADER_
-- Contains **modifiers, return type, name, parameters**
+---
 
-### _FUNCTION PROTOTYPE_
-- Specifies **return type, name, parameters**
+<h2 id="asciiunicode"><span style="color:#AF601A;"><b>🔡 ASCII vs UNICODE</b></span></h2>
 
-### _FUNCTION SIGNATURE_
-- Only **function name + parameters**
+| Type | Storage | Characters |
+|------|---------|------------|
+| ASCII | 1 byte | 256 |
+| UNICODE | 2 bytes | 65,534 |
 
-## _USER DEFINED FUNCTIONS & SCOPE OF VARIABLES_
-- Scope defines **accessibility** of variables.
+---
 
-## _OVERLOADING_
-- Same function name, **different parameters**.
+<h2 id="datatypes"><span style="color:#117A65;"><b>🔢 DATA TYPES</b></span></h2>
 
-## _ARRAYS_
-- `int arr[] = {1,2,3,4};`  
-- `int m[][] = {{1,2},{3,4}};`
+### Primitive  
+- byte, short, int, long  
+- float, double  
+- char  
+- boolean  
 
-## _KEY TERMS_
-- **Escape sequences** – special meaning (\n, \t)
+### Non-Primitive  
+- Class  
+- Array  
+- Interface  
 
-## _ITERATION_
-- Entry-controlled: **while, for**  
-- Exit-controlled: **do-while**
+---
 
-## _PATTERN LOGIC_
-### Simple pattern:
+<h2 id="variables"><span style="color:#884EA0;"><b>🧮 TYPES OF VARIABLES</b></span></h2>
+
+### Local  
+Only inside method  
+
+### Instance  
+Unique to each object  
+
+### Static  
+Shared across objects  
+
+---
+
+<h2 id="typeconversion"><span style="color:#CA6F1E;"><b>🔀 TYPE CONVERSION</b></span></h2>
+
+### Implicit  
+Lower → Higher  
+
+### Explicit  
+Higher → Lower  
+
+```java
+double x = 3.14;
+int y = (int)x;
+```
+
+---
+<h2 id="keyterms"><span style="color:#AD1457;"><b>📝 KEY TERMS</b></span></h2>
+
+- Escape sequences → `\n`, `\t`, etc.  
+- Iteration → loops  
+- Entry-controlled → for, while  
+- Exit-controlled → do-while  
+---
+<h2 id="functiontheory"><span style="color:#D35400;"><b>🧠 FUNCTION THEORY</b></span></h2>
+
+### Function Header  
+```java
+public static void main(String args[])
+```
+
+### Function Prototype
+```java
+void main(String args[])
+```
+
+### Function Signature  
+Function name + parameters  
+```java
+main(String args[])
+```
+
+---
+
+<h2 id="scope"><span style="color:#8E44AD;"><b>📏 SCOPE & OVERLOADING</b></span></h2>
+
+### Scope  
+Variables live only inside declared block  
+
+### Overloading  
+Same name, different parameters  
+
+---
+
+<h2 id="arrays"><span style="color:#1F618D;"><b>📚 ARRAYS</b></span></h2>
+
+- Arrays can be either **single dimensional** or **double dimensional**
+
+- A single dimensional array is declared by the following:
+
+```java
+int a[] = new int[10];
+```
+- It can be declared and initialised by
+```java
+int a[] = {1,2,3};
+```
+
+- A double dimensional array has multiple ways of being declared
+- The way to do it using **new** keyword is by
+
+```java
+int a[][] = new int[2][2];
+```
+
+- To declare and initialise a DDA, 2 methods can be used
+
+```java
+int a[][] = {{1,2}, {3,4}};
+
+int a[2][2] = {1,2,3,4};
+```
+---
+
+
+
+
+
+<h2 id="patternlogic"><span style="color:#2E86C1;"><b>🔢 PATTERN LOGIC</b></span></h2>
+
+### Simple Pattern  
 ```
 1
 12
 123
 ```
 
-### Floyd’s Triangle:
-```
-1
-2 3
-4 5 6
-7 8 9 10
-```
+For this program, we must carefully consider i and j, the counts of outer and inner loops
 
+- **i** will be the number of rows, going from 1-3 as followed by the diagonal lines
+- **j** will be the elements in the rows, going from left to right.
+- As observed, j goes from 1 to i in this case
+- Both i and j are ascending by 1, meaning a **++** operator will be used
 
-## _STRING PATTERN LOGIC_
-
-- **substring() method is used for generating decreasing string patterns.**
-
-### Example Pattern:
-```
-BLUEJ
-BLUE
-BLU
-BL
-B
-```
-
-### Code Example (Java):
+### Code  
 ```java
-String s = "BLUEJ";
-
-for (int i = s.length(); i > 0; i--) {
-    System.out.println(s.substring(0, i));
-}
-```
-
-
-## _KEY TERMS (DETAILED)_
-
-- **Escape sequences** – Non-graphic characters that have a special meaning to the compiler or JVM.  
-  - Examples: `\n` (new line), `\t` (tab), `\"` (double quote), `\\` (backslash).  
-- **Iteration** – Repeating a set of statements multiple times using loops.  
-- **Entry-controlled loop** – The condition is checked **before** entering the loop body.  
-  - Examples in Java: `for`, `while`.  
-- **Exit-controlled loop** – The condition is checked **after** executing the loop body at least once.  
-  - Example in Java: `do-while`.  
-- **Pattern** – A specific visual arrangement of numbers, characters or symbols printed using loops.  
-- **Logic of a pattern** – The step-by-step reasoning that decides:  
-  - How many **rows** the pattern has.  
-  - What each **column** inside a row prints.  
-  - How variables like `i`, `j`, `k` change in each iteration.  
-
-## _PATTERN LOGIC – SIMPLE NUMBER PATTERN_
-
-Example pattern:
-```text
-1
-12
-123
-1234
-...
-```
-
-### Logic:
-- Take an integer `n` for the number of rows.  
-- Use an **outer loop** (`i`) to control the **row number** from `1` to `n`.  
-- Use an **inner loop** (`j`) to control the **numbers printed in each row**.  
-- In each row, print values from `1` to `i`.  
-- After the inner loop finishes, print a new line.
-
-### Code:
-```java
-int n = 5; // number of rows
-
 for (int i = 1; i <= n; i++) {
     for (int j = 1; j <= i; j++) {
         System.out.print(j);
@@ -225,37 +255,43 @@ for (int i = 1; i <= n; i++) {
 }
 ```
 
-## _PATTERN LOGIC – FLOYD'S TRIANGLE_
 
-Floyd’s Triangle:
-```text
+### Floyd’s Triangle  
+```
 1
 2 3
 4 5 6
 7 8 9 10
-...
 ```
-
-### Logic:
-- Take an integer `n` for the number of rows.  
-- Maintain a counter variable `k` starting from `1`.  
-- Use an **outer loop** (`i`) from `1` to `n` for rows.  
-- Use an **inner loop** (`j`) from `1` to `i` for columns in that row.  
-- In each inner iteration:  
-  - Print the current value of `k`.  
-  - Increment `k` by `1`.  
-- After each row, move to the next line using `System.out.println();`.
-
-### Code:
+This uses the same logic as the initial pattern, but
+- Uses **n** as a seperate variable for the value to be printed
+- The third variable is required as the numbers keep on ascending in value, requiring the need of a variable that **does not** change in iterations
 ```java
-int n = 4; // number of rows
-int k = 1;
-
+int n = 1;
 for (int i = 1; i <= n; i++) {
-    for (int j = 1; j <= i; j++) {
-        System.out.print(k + " ");
-        k++;
+    for (int j = 1; j <= i; j++, n++) {
+        System.out.print(n + " ");
+        
     }
     System.out.println();
+}
+```
+
+---
+
+<h2 id="stringpatternlogic"><span style="color:#7D3C98;"><b>🔤 STRING PATTERN LOGIC</b></span></h2>
+
+```
+BLUEJ
+BLUE
+BLU
+BL
+B
+```
+A simple **substring** function can be incorprated to simplify the task of printing the pattern as follows
+```java
+String s = "BLUEJ";
+for (int i = s.length(); i > 0; i--) {
+    System.out.println(s.substring(0, i));
 }
 ```
