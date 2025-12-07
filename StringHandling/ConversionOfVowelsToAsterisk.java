@@ -11,7 +11,8 @@ class ConversionOfVowelsToAsterisk
         for(int i=0; i<str.length(); i++)
         {
             c = str.charAt(i);
-            if(c == 'E' || c=='e')
+            c = Character.toUpperCase(c);
+            if(c == 'A' || c == 'E' || c== 'I' || c=='O' || c=='U')
                 newStr += '*';
             else
                 newStr += c;

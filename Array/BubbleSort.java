@@ -10,7 +10,7 @@ class BubbleSort
         int temp;
         for(int i=0; i<ar.length; i++)
         {
-            for(int j=0; j<ar.length-1-i; j++)
+            for(int j=0; j<(ar.length-1)-i; j++) //ar.length-1 is required as ar[j] is compared to ar[j+1]. Without -1, there is index out of bounds
             {
                 if(ar[j]>ar[j+1])
                 {

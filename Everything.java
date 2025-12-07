@@ -4,7 +4,14 @@ import java.util.Scanner;
  * WAP to input words for an array of size 10 and first sort it in bubble sort
  * Then binary search an element
  * Then, find the longest and shortest word in selected string
- * Finally, randomize the array and display it
+ * Write a pattern using the selected element, in the following way (taken BLUEJ for example):
+ * 
+ * BLUEJ
+ * BLUE
+ * BLU
+ * BL
+ * B
+ * 
  */
 
 class Everything
@@ -78,5 +85,11 @@ class Everything
             }
         }
         System.out.println("Longest word is: "+longest + "\nShortest word is: "+shortest);
+        
+        for(int i=1; i<=s.length(); i++)
+        {
+            System.out.println(s.substring(0,s.length()-i));
+        }
+        
     }
 }

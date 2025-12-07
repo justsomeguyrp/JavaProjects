@@ -20,18 +20,18 @@ class Shapes
         double r, h, l, b;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter radius");
-        volume(sc.nextDouble());
+        System.out.println("Volume of sphere is: "+volume(sc.nextDouble())); //for sphere
         
         System.out.println("Enter height and radius: ");
         h = sc.nextDouble();
         r = sc.nextDouble();
-        volume(h, r);
+        System.out.println("Volume of cylinder is: "+volume(h, r)); //for cylinder
         
         
         l = sc.nextDouble();
         b = sc.nextDouble();
         h = sc.nextDouble();
-        volume(l, b, h);
+        System.out.println("Volume of cuboid is: "+volume(l, b, h)); //for cuboid
         
     }
     

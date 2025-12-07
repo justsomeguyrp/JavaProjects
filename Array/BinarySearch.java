@@ -6,9 +6,9 @@ class BinarySearch
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a sorted array: ");
-        int ar[] = {1,2,3,4,5,6,7,8,9};
+        int ar[] = {0,1,2,3,4,5,6,7,8}; //array in ascending order
         System.out.println("Enter number to be found: ");
-        int n = sc.nextInt();
+        int n = sc.nextInt(); 
         
         int least = 0, highest = ar.length-1, middle;
         

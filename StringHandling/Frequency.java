@@ -2,7 +2,7 @@ package StringHandling;
 import java.util.Scanner;
 class Frequency
 {
-    public static void main(String args[]) //Hello
+    public static void main(String args[])
     {
         Scanner sc= new Scanner(System.in);
         String str = sc.nextLine();

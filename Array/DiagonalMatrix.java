@@ -6,6 +6,8 @@ class DiagonalMatrix
     {
         Scanner sc = new Scanner(System.in);
         int a[][] = new int[4][4];
+        
+        //Input:
         for(int r=0; r<4; r++)
         {
             for(int c=0; c<4; c++)
@@ -15,10 +17,13 @@ class DiagonalMatrix
             }
         }
         int s1=0, s2=0;
+        
         for(int r=0; r<4; r++)
         {
             s1 += a[r][r];
             s2 += a[r][3-r];
+            
+            
         }
         
         if(s1 == s2)

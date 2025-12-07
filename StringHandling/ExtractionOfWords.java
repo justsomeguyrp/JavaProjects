@@ -1,12 +1,16 @@
 package StringHandling;
 import java.util.Scanner;
+
+/*
+ * Extracts each word of the sentence given and prints in different lines
+ */
 class ExtractionOfWords
 {
     static void main()
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a string: ");
-        String s = sc.nextLine(); // |Hello World|
+        System.out.println("Enter a string: "); // HELLO WORLD
+        String s = sc.nextLine(); 
         s = s.trim();
         s += " ";
         String word = "";
