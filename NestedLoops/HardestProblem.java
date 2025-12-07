@@ -6,8 +6,8 @@ class HardestProblem
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the total number of numbers for the pattern: ");
-        int counter = sc.nextInt();       
-        for(int i=counter; i>=1; i--)
+        long counter = sc.nextLong();       
+        for(long i=counter; i>=1; i--)
         {
             for(int k=1; k<=counter-i; k++)
                 System.out.print(" ");

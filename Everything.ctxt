@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Everything
-comment0.text=\r\n\ WAP\ to\ input\ words\ for\ an\ array\ of\ size\ 10\ and\ first\ sort\ it\ in\ bubble\ sort\r\n\ Then\ binary\ search\ an\ element\r\n\ Then,\ find\ the\ longest\ and\ shortest\ word\ in\ EACH\ string\r\n\ Finally,\ randomize\ the\ array\ and\ display\ it\r\n
+comment0.text=\r\n\ WAP\ to\ input\ words\ for\ an\ array\ of\ size\ 10\ and\ first\ sort\ it\ in\ bubble\ sort\r\n\ Then\ binary\ search\ an\ element\r\n\ Then,\ find\ the\ longest\ and\ shortest\ word\ in\ selected\ string\r\n\ Finally,\ randomize\ the\ array\ and\ display\ it\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2

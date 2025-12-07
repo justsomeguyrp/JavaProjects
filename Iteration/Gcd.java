@@ -14,7 +14,6 @@ class Gcd
             r = divd%div;
             divd = div;
             div = r;
-            
         }
         System.out.println(divd);
     }

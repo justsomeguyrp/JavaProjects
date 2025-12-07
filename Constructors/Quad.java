@@ -1,5 +1,6 @@
 package Constructors;
 
+//Quadratic equation code
 class Quad
 {
     double a,b,c,d, r1, r2;

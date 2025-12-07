@@ -3,7 +3,7 @@ import java.util.Scanner;
 /*
  * WAP to input words for an array of size 10 and first sort it in bubble sort
  * Then binary search an element
- * Then, find the longest and shortest word in EACH string
+ * Then, find the longest and shortest word in selected string
  * Finally, randomize the array and display it
  */
 
@@ -18,7 +18,10 @@ class Everything
         {
             ar[i]= sc.next();
         }
-        
+        for(int i=0; i<10; i++)
+        {
+            System.out.println(ar[i]);
+        }
         System.out.println("Enter a element: ");
         String s = sc.next(), temp;
         
@@ -54,5 +57,26 @@ class Everything
                 break;
             }
         }
+        
+        s = s+" ";
+        String longest="", shortest="", word="";
+        char c;
+        for(int i=0; i<s.length(); i++)
+        {
+            c = s.charAt(0);
+            if(Character.isWhitespace(c))
+            {
+                if(word.length() < shortest.length())
+                    shortest = word;
+                if(word.length() > longest.length())
+                    longest = word;
+                word = "";
+            }
+            else
+            {
+                word += c;
+            }
+        }
+        System.out.println("Longest word is: "+longest + "\nShortest word is: "+shortest);
     }
 }

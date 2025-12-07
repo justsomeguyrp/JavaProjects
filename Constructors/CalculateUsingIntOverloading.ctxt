@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CalculateUsingIntOverloading
+comment1.params=n
+comment1.target=CalculateUsingIntOverloading(int)
+comment2.params=
+comment2.target=int\ prime()
+comment3.params=
+comment3.target=int\ reverse()
+comment4.params=f\ r
+comment4.target=void\ display(int,\ int)
+comment5.params=
+comment5.target=void\ main()
+numComments=6

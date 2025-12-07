@@ -18,10 +18,10 @@ class FibonacciAndSum
                     s += temp;
                 }
             case 2: 
-                int n = sc.nextInt();
+                int n = sc.nextInt(), sum=0;
                 for(int i=1; i<=n; i++)
                 {
-                        
+                    sum += i;
                 }
                 break;
             default: System.out.println("Invalid choice");

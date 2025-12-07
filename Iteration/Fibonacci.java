@@ -4,17 +4,15 @@ class Fibonacci
 {
     static void main()
     {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number: ");
-        int n = sc.nextInt();
-        int temp;
-        System.out.print("Fibonacci series: 0, ");
-        for(int f=0, s=1; s<=n;)
+        int temp; 
+        int n = 10;
+        
+        for(int f=0, s=1, i=1; i<=n;i++)
         {
-            System.out.print(s+", ");
-            temp = f;
-            f = s;
-            s += temp;
+            System.out.print(s+",");
+            temp = s;
+            s = s+f;
+            f = temp;
         }
     }
 }
