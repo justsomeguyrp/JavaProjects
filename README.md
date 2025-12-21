@@ -35,8 +35,15 @@
 15. [Constructors](#constructors)
 16. [String Handling](#string-handling)
 17. [Scope](#scope)
-18. [Patter]()
-
+18. [Pattern](#-pattern-logic)
+	- [Number Pattern](#simple-pattern)
+	- [String Pattern with Substrings](#-string-pattern-logic-using-substrings)
+	- [String Pattern with ASCII Values](#-string-pattern-logic-using-ascii-values)
+19. [Arrays](#-arrays)
+    - [Linear Search](#linear-searching)
+    - [Binary Search](#binary-searching)
+    - [Selection Sort](#selection-sorting)
+    - [Bubble Sort](#bubble-sorting)
 ---
 
 ## **🔷 GENERATIONS OF COMPUTER LANGUAGES**
@@ -566,7 +573,7 @@ for (int i = s.length(); i > 0; i--)
 }
 ```
 
-## **🔤**STRING PATTERN LOGIC (USING ASCII VALUES)
+## **🔤 **STRING PATTERN LOGIC (USING ASCII VALUES)
 
 ```
 A
@@ -663,7 +670,7 @@ for(int i=0; i<ar.length(); i++)
 }
 ```
 
-### Linear Search
+### Linear Searching
 
 We use linear search to find an element of any data type within an array. Each element is searched through to find the desired element
 
